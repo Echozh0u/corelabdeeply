@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #cee6ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#content-container {
+    color: azure;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.339);
+    overflow: hidden; /* 清除浮动 */
+}
+
+#left-sidebar {
+    float: right;
+    width: 43%;
+    text-align: center;
+    background-color: #cee6ff;
+    padding: 20px;
+    margin-right: 5px
+}
+
+#right-sidebar {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    
+    margin-left: 5px
+}
+
+p {
+    color: rgba(68, 67, 65, 0.565);
+}
+
+li {
+    color: rgba(68, 67, 65, 0.565);
+}
+
+#happiness {
+    color: rgba(102, 96, 88, 0.382);
+}
+
+#sadness {
+    color: rgba(102, 96, 88, 0.382);
+}
+
+#customContent {
+    clear: both;
+    float: right;
+    width: 43%;
+    line-height: 1.5; 
+}
+
